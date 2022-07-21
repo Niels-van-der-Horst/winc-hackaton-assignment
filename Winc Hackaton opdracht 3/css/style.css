@@ -1,0 +1,778 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;800;900&family=Prompt:wght@100;300;700&display=swap');
+@import url(//fonts.googleapis.com/css?family=Oswald:700);
+
+/*-Stylesheet-*/
+
+
+h1 {
+
+    color: aliceblue;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 0px;
+}
+
+h2 {
+
+    color: aliceblue;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+    
+}
+
+h4 {
+
+    font-family: 'Maven Pro';
+    font-size: 0.8rem;
+    font-weight: 300
+}
+
+a {
+    font-family: 'Maven Pro';
+}
+
+
+p {
+    font-family: 'Roboto Condensed';
+}
+
+
+/*--MOBILE HOMEPAGE--*/
+
+
+.flex-header {
+    color: antiquewhite;
+    font-size: 1.3rem;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    height: 60px;
+    max-width: 100%;
+    background-color: rgb(36, 177, 196);
+    padding-top: 15px ;
+    text-align: center;    
+}
+
+.flex-header > h4 {
+    margin: 0px;
+    padding-left: 184px;
+    
+}
+
+.main-menu {    
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: white;
+    border: 0px;
+    
+}
+    
+.menu-button-space {
+    display: none;
+}
+
+
+.menu-button {
+    height: 25px;
+    margin-top: 1px;
+    max-width: 100%;
+    background-color:rgb(150, 164, 142);
+    border: 0px;
+    padding: 0px 0px;
+}
+
+.menu-button:hover {
+    background-color:  rgb(117, 133, 108);
+}
+
+.menu-button > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;   
+}
+
+/*--IMAGE-HEADER--*/
+
+
+.img-header {
+    margin-top: 1px;
+    padding-top: 5px;
+    height: 400px;
+    width: 100%;
+    background-image:  url(../img/thailand-forest668.jpeg);
+    object-fit: contain;
+    background-repeat: no-repeat;    
+}
+
+.img-header > h2 {
+    font-size: 2em;
+    padding-top: 250px;
+    text-align: center;    
+}
+
+.img-header-desktop {
+    display: none;
+}
+
+.card-container {
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px;
+    height: 100%;
+    gap: 1px;
+}
+
+.card {    
+    height: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+       
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;  
+}
+
+.responsive-img:hover {
+    position: relative;
+    top: -5px;
+}
+
+
+/*--BOOKING BUTTON--*/
+
+
+
+.booking-button {
+    width: 100%;
+    border: 1px solid  rgb(36, 177, 196);
+    border-radius: 5px;
+    right: 35px;
+    font-family: 'Maven Pro';
+    background-color: rgb(36, 177, 196);
+    padding: 4px 20px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    border: none;
+}
+
+.booking-button:hover {
+    background-color: rgb(150, 164, 142);
+    color:  rgb(36, 177, 196);
+}
+
+.booking-button > a {
+    text-decoration: none;
+    color:  white;
+    font-size: 0.9rem;
+    
+}
+
+.card-title  {
+    height: 30px;
+    background-color: rgb(164, 125, 18);
+    color: antiquewhite;
+    font-family: 'Maven Pro';
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 10px 0px 0px 0px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.card-title:hover {
+    background-color: rgb(94, 72, 14);
+}
+
+
+/*--ARTICLE-SECTION--*/
+
+
+
+.article-container {
+    display: block;
+    max-width: 100%;   
+}
+
+.video-card {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0.50turn, rgb(36, 177, 196), rgb(150, 164, 142));
+}
+
+
+
+.quote-card {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    background: linear-gradient(0.50turn, rgb(36, 177, 196), rgb(150, 164, 142));  
+}
+
+.quote-content > h3 {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 25px;    
+}
+
+
+
+/*--VIDEO-ARTICLE--*/
+
+
+.video-wrapper iframe {
+    width: 100%;
+    height: 200px;
+}
+
+
+/*--FORM-ARTICLE--*/
+
+
+.form-card {
+    width: 100%;
+    height: auto;
+    
+    background: linear-gradient(0.50turn, rgb(36, 177, 196), rgb(150, 164, 142));
+}
+
+.form-title h3 {
+    font-family: 'maven Pro';
+    font-size: 1.4rem;
+    color: white;
+    padding: 10px;
+    text-align:center;
+    margin: 0px 0px;
+   
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container input[type="text"] {
+    display: block;
+   
+}
+
+.form {
+    margin: 0px 35px;
+    width: 100%;
+    
+}
+
+.form-field {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Maven Pro';
+    
+}
+
+.form-field input[type="text"], input[type="email"] {
+    width: 100% ;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    border: 1px;
+    padding: 0px;
+    text-indent: 10px;
+    font-size: 13px;
+}
+
+.form .form-field input::placeholder {
+    color: rgb(164, 125, 18, 70%);
+}
+
+
+.submit-button input[type="submit"] {
+    display: block;
+    font-family: 'Maven Pro';
+    font-size: 1.0rem;
+    height: 35px;
+    width: 100%;
+    border: 1px;
+    border-radius: 5px;
+    background-color:rgb(164, 125, 18);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+input:focus {
+    outline: 3px dashed rgb(164, 125, 18);
+}
+
+
+/*--FOOTER--*/
+
+footer {
+    font-family: 'Maven Pro';
+    font-size: 0.7rem;
+    margin-top: 20px;
+    height: auto;
+    background-color: rgb(150, 164, 142);
+    color:azure;    
+    padding: 10px;
+}
+
+
+
+.footer-content {
+    padding: 0px;
+    font-size: 0.8;
+    text-align: center;
+}
+
+.footer-content > ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.plane {
+    height: auto;
+    width: 15%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-content .plane {
+    margin-top: -10px;
+}
+
+
+/*--DESTINATION-PAGE--*/
+
+
+/*--Label-Section--*/
+
+
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    height: 200px;
+    background-color: rgb(36, 177, 196, 50%);
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+.label h2 {
+    font-size: 1.4rem;
+}
+.label h2, .label p {
+    color: rgb(36, 177, 196);
+    margin: 10px 10px 0px 20px;    
+}
+
+.label-title > p {
+    color: rgb(164, 125, 18);
+    text-align: right;
+    padding-right: 25px;
+}
+
+.label-content p {
+    color: rgb(100, 91, 91);
+    font-size: 1rem;
+    background-color: rgb(36, 177, 196, 30%);
+    padding: 15px;
+}
+
+
+.square-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.square {
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: silver;
+    border: 1px solid white;   
+}
+
+.square + .square {
+    background-color: rgb(164, 125, 18);
+}
+
+.square:hover {
+    background-color: rgb(36, 177, 196);
+    border: 1px dashed white;
+}
+
+
+/*--Media Queries TABLET--*/
+
+
+@media screen and (min-width: 391px) and (max-width: 920px) {
+    
+
+    .flex-header {
+        height: 90px;
+    }
+    .flex-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .flex-header h4 {
+        font-size: 1.1rem;
+        padding-left: 240px;
+    }
+
+    .img-header {
+        background-size: cover;
+    }
+    
+    .img-header > h2 {
+        font-size: 2.5rem;
+        padding-top: 280px;
+        text-align: center;   
+    }
+
+    .menu-button {
+        height: 35px;
+    }
+    .menu-button a {
+        font-size: 1.3rem;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px;        
+    }
+
+    .card {    
+        position: relative;
+        height: auto;
+        width: 50%;
+    }
+    
+    .booking-button {
+        position: absolute;
+        bottom: 60px;
+        border: 1px solid white;
+        padding: 6px;
+        width: 30%
+    }
+    
+    .booking-button a {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 10px;
+        height: 35px;
+    }
+
+    .article-container {
+        display: block;
+        flex-direction: column;
+        height: 100%;
+        gap: 1px;
+        margin-top: 5px;   
+    }
+    
+    .quote-card {
+        margin: 10px 0px;
+    }
+
+    .quote-content h3 {
+        font-size: 1.7rem;
+        padding-top: 15px;
+    }
+
+    .quote-img {
+        width: 8%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .form {
+        margin: 0px 150px;
+    }
+
+    .form-card .form-title h3 {
+        font-size: 1.7rem;
+        padding-top: 15px;
+    }
+   
+    
+    .footer-container {     
+        display: flex;
+        flex-direction: row;
+        text-align: center; 
+        border-top: 5px solid rgb(164, 125, 18, 50%);
+        height: auto;
+    }
+
+    .footer-content ul {
+        margin: 0px;
+    }
+
+    .footer-content {
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 0.8rem;    
+    }
+
+    .footer-content .plane {
+        width: 90px;
+        margin: 0px;
+    }
+}
+
+
+
+/*--DESTINATION-PAGE---Media Queries TABLET--*/
+
+
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    height: auto;
+  
+}
+
+.square-container {
+    max-width: 50%;
+    justify-content: right;
+    gap: 10px;
+}
+
+
+
+/*--Media Queries DESKTOP--*/
+
+
+
+@media (min-width: 921px)  {
+
+    
+    .flex-header {
+        padding-top: 40px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-header h1 {
+        font-size: 3.5rem;
+    }
+
+    .flex-header h4 {
+        font-size: 1.1rem;
+        padding-left: 300px;
+    }
+
+    .main-menu {
+        gap: 1px;
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        background-color: rgb(150, 164, 142);
+        margin: 1px 0px 0px 0px;       
+    }
+
+    .menu-button-space {
+        width: 50px;
+        background-color: rgb(150, 164, 142);
+        border: 0px;
+        border-right: 1px solid white;
+        display:inherit
+    }
+
+    .menu-button {
+        height: 34px;
+        padding: 5px;
+        border-right: 1px solid white;
+    }
+
+    .img-header {
+        display: none;
+        height: 250px;         
+    }
+ 
+    .img-header-desktop {
+        display: block;
+        margin-top: 1px;
+        padding-top: 5px;
+        background-image: url('../img/india-forest2.jpeg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height:400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .img-header-desktop h2 {
+        font-size: 4rem;
+        padding-top: 150px;
+        text-shadow: 2px 2px rgb(164, 125, 18);
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: row;
+    }
+
+
+    .card {
+        position: relative;
+        width: 25%;
+        height: auto;
+    }
+
+    .card-title {
+        padding-top: 10px;
+        font-size: 1.4rem;
+        height: 40px;
+    }
+
+    .booking-button {
+        position: absolute;
+        bottom: 90px;
+        border: 1px solid white;
+        width: 160px;
+        
+    }
+  
+    .booking-button a {
+        font-size: 1.3rem;
+    }
+
+  
+
+    .formcard > h3 {
+        font-size: 1.3rem;
+    }
+
+
+
+    /*--ARTICLES-DESKTOP--*/
+
+
+
+    .article-container {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        height: 100%;
+        gap: 5px;
+        margin-top: 5px;
+    }   
+    
+    .quote-content > h3 {
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    
+   
+
+    .form-card > .form-title > h3 {
+       font-size: 1.6em;
+       padding-top: 20px;
+    }
+
+    .form {
+        margin: 0px 20%;
+    }
+
+
+
+    /*--FOOTER-DESKTOP--*/
+
+
+
+    footer {        
+        height: 130px;
+    }
+
+    .footer-container {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        border-top: 5px solid rgb(164, 125, 18, 50%);        
+    }
+
+    .footer-content {
+        width: 100%;
+        margin-top: 20px; 
+        font-size: 0.9rem;
+    }
+
+    .footer-content > ul {
+        list-style-type: none;
+        margin: 0px;       
+    }
+    
+    .footer-content .plane {
+        width: 125px; 
+    }
+
+
+/*--DESTINATION-PAGE---Media Queries DESKTOP--*/
+
+
+.img-header-desktop h2 {
+    margin-bottom: 0px;
+}
+.label-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.img-header-desktop {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.header-button {
+    justify-content: center;
+    align-items: center;
+    margin: auto auto ;
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    font-family: 'Maven Pro';
+    font-weight: 700;
+    background-color: rgb(36, 177, 196);
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+} 
